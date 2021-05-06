@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+    color: #777;
+}
+header{
+    background-image: url(images/7971.jpg);
+    background-size: cover;
+    background: color #000;;
+    background-blend-mode: multiply;
+}
+
+nav{
+    text-align: center;
+    font-weight: lighter;
+    border-top:1px solid seashell;
+    
+}
+nav ul{
+    margin:0;
+}
+
+nav li {
+display: inline;
+padding: 5%;
+}
+
+i{
+
+}
+nav a{
+    display: inline-block;
+    padding: 0.5em;
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover{
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+
+
+.title{
+    text-align: center;
+    margin: 0;
+    font-size: 8em;
+    font-family: 'Permanent Marker', cursive;
+    color: rgba(255, 32, 32, 0.897);
+    font-weight: normal;
+}
+
+
+.background{
+    background-image: url(images/background.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+.containers{
+    max-width: 80%; 
+    margin: auto;
+    padding: 0 1.5em;   
+}
+
+.section-header{
+    font-family: "Krona One";
+    font-weight: normal;
+    text-align: center;
+    color: #333;
+    font-size: 2.5em;
+    justify-content: center;
+    padding-top: 70px;
+    
+}
+
+.content-section p{
+    margin-top: 20px;
+    margin-left: 100px;
+    color: black;
+}
+
+.images{
+    height: 300px;
+    width: 300px;
+    float: left;
+    margin: 15px;
+    border-radius: 50%;
+}
+
+.images2{
+    height: 500px;
+    
+    float: right;
+    margin: 15px;
+    border-radius: 5px;
+}
+
+.section-header2{
+    font-family: "Krona One";
+    font-weight: normal;
+    text-align: center;
+    color: #333;
+    font-size: 2.5em;
+    justify-content: center;
+    padding-top: 200px;
+    
+}
+
+
+.content-section2 p{
+    margin-top: 10px;
+    margin-left: 10px;
+    color: black;
+}
+
+.instagram-media{
+    float: left;
+    height: 600px;
+    overflow:scroll;
+}
+
+.section-header3{
+    font-family: "Krona One";
+    font-weight: normal;
+    text-align: center;
+    color: #333;
+    font-size: 2em;
+    justify-content: center;
+    padding-top: 250px;
+    
+    
+}
+
+
+footer{
+    padding-left: 300px;
+    height: 300px;
+    background-color: black;
+    display: flex;
+}
+
+footer img{
+    height: 300px;
+}
+
+footer li{
+    margin-top: 50px;
+    margin-left: 100px;
+    list-style:none;
+}
+
+
+footer li ul {
+margin: 20px;
+}
+
+footer li ul a{
+    text-decoration: none;
+    color: white    ;
+    }
